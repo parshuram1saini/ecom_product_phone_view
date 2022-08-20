@@ -1,0 +1,45 @@
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(0.9);
+  transform: translate3d();
+}
+.large-image {
+  /* width: 100vw; */
+}
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute;
+}
+.w-100 {
+  width: 100vw;
+}
+/* .large-img-container{
+    position:absolute;
+    z-index: -1;
+ } */
+.h-5 {
+  height: 5vh;
+}
+.large-image {
+}
+.justify-center {
+  justify-content: center;
+}
+.prev-icon {
+  top: 40%;
+  left: 5%;
+}
+.next-icon {
+  top: 40%;
+  right: 5%;
+}
+.z-index_1 {
+  z-index: 1;
+}
